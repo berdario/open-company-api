@@ -1,4 +1,5 @@
 (ns open-company.util.sample-data
+  "Commandline client to import sample data into OpenCompany."
   (:require [clojure.string :as s]
             [clojure.tools.cli :refer (parse-opts)]
             [defun :refer (defun-)]
