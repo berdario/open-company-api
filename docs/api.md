@@ -88,3 +88,119 @@ Note-worthy: `PATCH`ing just `notes` property to revise the section's notes.
 ### Removing a section:
 
 Remove the section name from the `sections` property of the company. See updating a company above.
+
+
+## Comments
+
+### Getting comments
+
+Comments come back as part of sections, eg:
+
+```
+"challenges": {
+  "title": "Key Challenges",
+  "body": "<p>...</p>",
+  "updated-at": "2015-09-14T20:49:19.000Z",
+  "author": {
+    "user-id": "123456",
+    "image": "http://www.emoticonswallpapers.com/avatar/cartoons/Wiley-Coyote-Dazed.jpg",
+    "name": "Wile E. Coyote"
+  },
+  "comments": [],
+  "revisions": [...],
+  "links": [
+    {
+      "rel": "comment",
+      "method": "POST",
+      "href": "/companies/buffer/challenges/comments",
+      "type": "application/vnd.open-company.comment.v1+json"
+    },
+    ...
+  ]
+}
+```
+
+or
+
+```
+"challenges": {
+  "title": "Key Challenges",
+  "body": "<p>...</p>",
+  "updated-at": "2015-09-14T20:49:19.000Z",
+  "author": {
+    "user-id": "123456",
+    "image": "http://www.emoticonswallpapers.com/avatar/cartoons/Wiley-Coyote-Dazed.jpg",
+    "name": "Wile E. Coyote"
+  },
+  "comments": [
+    {
+      "comment-id": "12345",
+      "created-at": "2015-09-14T21:56:17.000Z",
+      "updated-at": "2015-09-14T21:56:17.000Z",
+      "body": "That does seem challenging.",
+      "author": {
+        "user-id": "234567",
+        "image": "http://www.brentonholmes.com/wp-content/uploads/2010/05/albert-camus1.jpg",
+        "name": "Albert Camus"
+      },
+      "links": [
+        {
+          "rel": "reply",
+          "method": "POST",
+          "href": "/companies/buffer/challenges/comments/12345",
+          "type": "application/vnd.open-company.comment.v1+json"
+        }
+      ]
+    },
+    {
+      "comment-id": "23456",
+      "response-to": "12345",
+      "created-at": "2015-09-14T22:45:17.000Z",
+      "updated-at": "2015-09-14T22:45:17.000Z",
+      "body": "No, not really.",
+      "author": {
+        "user-id": "123456",
+        "image": "http://www.emoticonswallpapers.com/avatar/cartoons/Wiley-Coyote-Dazed.jpg",
+        "name": "Wile E. Coyote"
+      },
+      "links": []
+    }
+  ], 
+  "revisions": [...],
+  "links": [
+    {
+      "rel": "comment",
+      "method": "POST",
+      "href": "/companies/buffer/challenges/comments",
+      "type": "application/vnd.open-company.comment.v1+json"
+    },
+    ...
+  ]
+}
+```
+
+### Creating comments
+
+Comments can be created by following the section's `comment` link, eg:
+
+```
+POST /companies/<slug>/<section-name>/comments
+```
+  accepts: `application/vnd.open-company.comment.v1+json`
+  returns: `application/vnd.open-company.comment.v1+json`
+
+Replies to exisitng comments can be created by following the comment's `reply` link, eg:
+
+```
+POST /companies/<slug>/<section-name>/comments/<comment-id>
+```
+  accepts: `application/vnd.open-company.comment.v1+json`
+  returns: `application/vnd.open-company.comment.v1+json`
+
+### Updating a comment
+
+TBD. They'll be a link in `links`.
+
+### Removing a comment.
+
+TBD. They'll be a link in `links`.
