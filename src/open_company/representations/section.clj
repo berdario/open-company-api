@@ -1,6 +1,7 @@
 (ns open-company.representations.section
   (:require [cheshire.core :as json]
             [open-company.representations.common :as common]
+            [open-company.representations.comment :as comment-rep]
             [open-company.resources.section :as section]))
 
 (def media-type "application/vnd.open-company.section.v1+json")
@@ -20,6 +21,9 @@
 (defn- partial-update-link [company-slug section-name]
   (common/partial-update-link (url company-slug section-name) media-type))
 
+(defn- comment-link [company-slug section-name]
+  (common/link-map "comment" common/POST (comment-rep/url company-slug section-name) comment-rep/media-type))
+
 (defn- revision-link [company-slug section-name updated-at]
   (common/revision-link (url company-slug section-name updated-at) updated-at media-type))
 
@@ -30,7 +34,8 @@
   (assoc section :links (flatten [
     (self-link company-slug section-name)
     (update-link company-slug section-name)
-    (partial-update-link company-slug section-name)]))))
+    (partial-update-link company-slug section-name)
+    (comment-link company-slug section-name)]))))
 
 (defn revision-links
   "Add the HATEAOS revision links to the section"

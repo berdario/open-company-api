@@ -9,15 +9,16 @@
   []
   (str (java.util.UUID/randomUUID)))
 
-(defn- short-uuid []
+(defn- short-uuid
   "
   Take the middle 3 sections of a Java UUID to make a shorter UUID.
 
   Ex: f6f7-499f-b805
   "
+  []
   (s/join "-" (take 3 (rest (s/split (uuid) #"-")))))
 
-(defn create-comment 
+(defn create-comment
   "
   Given a company slug, section name, comment map and the comment's author, update the section and company with
   the new comment.
@@ -35,12 +36,12 @@
                         (assoc :created-at comment-timestamp)
                         (assoc :updated-at comment-timestamp))
         ;; add the comment to the section
-        final-section (assoc section :comments (conj (:comments section) final-comment))]
+        final-section (update-in section [:comments] conj final-comment)]
     (if (and company section)
       (do
         ;; store the section w/ the comment
         (common/update-resource section/table-name section/primary-key section final-section (:updated-at section))
-        ;; store the company w/ the section 
+        ;; store the company w/ the section
         (common/update-resource company/table-name company/primary-key company
           (assoc company (keyword section-name) final-section) (:updated-at company))
         final-comment)

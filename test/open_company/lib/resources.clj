@@ -110,4 +110,5 @@
 ;; ----- Comments -----
 
 (def comment-1 {:body "Ahmen!"})
-(def comment-2 {:body "I disagree."})
+(def comment-2 {:body "I agree."})
+(def comment-3 {:body "Indeed."})

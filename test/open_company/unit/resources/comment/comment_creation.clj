@@ -16,6 +16,8 @@
 
 ;; ----- Tests -----
 
+;; TODO tests for comment creation failures
+
 (with-state-changes [(before :facts (company/delete-all-companies!))
                      (after :facts (company/delete-all-companies!))]
 
@@ -55,6 +57,7 @@
         (doseq [comment-1 [comment-return comment-retrieve-1 comment-retrieve-2]]
           (:author comment-1) => r/camus
           (:body comment-1) => (:body r/comment-1)
+          (:response-to comment-1) => nil
           (s/blank? (:comment-id comment-1)) => false
           (string? (:comment-id comment-1)) => true
           (check/timestamp? (:updated-at comment-1)) => true
@@ -74,6 +77,7 @@
           (doseq [comment-2 [comment-return comment-retrieve-1 comment-retrieve-2]]
             (:author comment-2) => r/coyote
             (:body comment-2) => (:body r/comment-2)
+            (:response-to comment-2) => nil
             (s/blank? (:comment-id comment-2)) => false
             (string? (:comment-id comment-2)) => true
             (check/timestamp? (:updated-at comment-2)) => true
