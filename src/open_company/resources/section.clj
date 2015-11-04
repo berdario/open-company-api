@@ -135,7 +135,6 @@
   (common/updated-at-order
     (common/read-resources table-name "company-slug-section-name-updated-at" [slug section-name updated-at]))))
 
-
 (defun- revise-or-update
 
   ; this is the first time for the section, so create it
@@ -187,22 +186,24 @@
   ([company-slug section-name section author]
     (put-section company-slug section-name section author (common/current-timestamp)))
 
-
+  ;; invalid section or auther
   ([_company-slug _section-name _section :guard #(not (map? %)) _author _timestamp] false)
   ([_company-slug _section-name _section _author :guard #(not (map? %)) _timestamp] false)
 
+  ;; force section-name to a keyword
   ([company-slug section-name :guard #(not (keyword? %)) section author timestamp]
   (put-section company-slug (keyword section-name) section author timestamp))
 
   ([company-slug section-name section author timestamp]
   (let [original-company (company/get-company company-slug)
         original-section (get-section company-slug section-name)
-        clean-section (clean section)
-        updated-section (-> clean-section
+        updated-section (-> section
+          (clean)
           (assoc :company-slug company-slug)
           (assoc :section-name section-name)
           (assoc :author author)
           (assoc :updated-at timestamp)
+          (assoc :comments [])
           (update-notes-for (original-company section-name) author timestamp))
         updated-company (assoc original-company section-name (-> updated-section
           (dissoc :company-slug)

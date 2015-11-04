@@ -195,23 +195,23 @@ Then enter these commands one-by-one, noting the output:
     ]
   }} author)
 
-  (company/create-company {
-    :name "Buffer"
-    :currency "USD"
-    :update {
-      :title "Founder's Update"
-      :body "It's all good!"
+(company/create-company {
+  :name "Buffer"
+  :currency "USD"
+  :update {
+    :title "Founder's Update"
+    :body "It's all good!"
+  }
+  :finances {
+    :title "Finances"
+    :data [
+      {:period "2015-08" :cash 1182329 :revenue 1215 :costs 28019}
+      {:period "2015-09" :cash 1209133 :revenue 977 :costs 27155}
+    ]
+    :notes {
+      :body "Good stuff! Revenue is up."
     }
-    :finances {
-      :title "Finances"
-      :data [
-        {:period "2015-08" :cash 1182329 :revenue 1215 :costs 28019}
-        {:period "2015-09" :cash 1209133 :revenue 977 :costs 27155}
-      ]
-      :notes {
-        :body "Good stuff! Revenue is up."
-      }
-    }} author)
+  }} author)
 
 ;; List companies
 (company/list-companies)
