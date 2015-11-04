@@ -168,6 +168,7 @@ Then enter these commands one-by-one, noting the output:
 (require '[open-company.db.init :as db])
 (require '[open-company.resources.company :as company])
 (require '[open-company.resources.section :as section])
+(require '[open-company.resources.comment :as comment])
 
 ;; Create DB and tables and indexes
 (db/init)
@@ -255,6 +256,13 @@ Then enter these commands one-by-one, noting the output:
 (section/get-revisions "transparency" "finances")
 (section/get-revisions "buffer" "update")
 (section/get-revisions "buffer" "finances")
+
+;; Comment on a section
+(comment/create-comment "buffer" "update" {:body "Super cool!"} author)
+
+;; Reply to the comment
+(let [comment-id (:comment-id (first (:comments (section/get-section "buffer" "update"))))]
+  (comment/create-comment "buffer" "update" {:body "Maybe mildly cool?" :response-to comment-id} author))
 
 ;; Delete a company
 (company/delete-company "transparency")

@@ -200,10 +200,10 @@
   {:pre [(string? slug)]}
   (try
     (common/delete-resource common/section-table-name :company-slug slug)
-    (catch java.lang.RuntimeException e)) ; it's OK if there is nothing to delete
+    (catch java.lang.RuntimeException e)) ; it's OK if there are no sections to delete
   (try
     (common/delete-resource table-name slug)
-    (catch java.lang.RuntimeException e))) ; it's OK if there is nothing to delete
+    (catch java.lang.RuntimeException e))) ; it's OK if there is no company to delete
 
 ;; ----- Company revisions -----
 
@@ -227,6 +227,6 @@
 (defn delete-all-companies!
   "Use with caution! Failure can result in partial deletes of sections and companies. Returns `true` if successful."
   []
-  ;; Delete all reports and all companies
+  ;; Delete all sections and all companies
   (common/delete-all-resources! common/section-table-name)
   (common/delete-all-resources! table-name))

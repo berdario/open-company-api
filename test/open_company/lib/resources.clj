@@ -104,3 +104,10 @@
     }]
     :notes {
       :body "7 dollars."}})
+
+(def open-with-finances (assoc open :finances finances-section-1))
+
+;; ----- Comments -----
+
+(def comment-1 {:body "Ahmen!"})
+(def comment-2 {:body "I disagree."})
