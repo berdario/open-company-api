@@ -24,7 +24,6 @@
   (let [url (company-rep/url ticker)]
     (verify-link "self" GET url company-rep/media-type links)
     (verify-link "update" PUT url company-rep/media-type links)
-    ;(verify-link "partial-update" PATCH url company-rep/media-type links)
     (verify-link "delete" DELETE url :no links)))
 
 (defn verify-section-links [company-slug section-name links]
