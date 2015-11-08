@@ -3,6 +3,7 @@
             [cheshire.core :as json]
             [open-company.representations.common :as common]
             [open-company.representations.section :as section-rep]
+            [open-company.representations.comment :as comment-rep]
             [open-company.resources.company :as company]))
 
 (def media-type "application/vnd.open-company.company.v1+json")
@@ -43,17 +44,6 @@
       (partial-update-link company)
       (delete-link company)])))
 
-(defun- section-revision-links
-  "Add the HATEOS revision links to each section"
-  ([company] (section-revision-links company (flatten (vals (:sections company)))))
-  ([company _sections :guard empty?] company)
-  ([company sections]
-    (let [company-slug (:slug company)
-          section-name (keyword (first sections))
-          section (company section-name)]
-      (recur (assoc company section-name (section-rep/revision-links company-slug section-name section))
-        (rest sections)))))
-
 (defun- section-links
   "Add the HATEOS links to each section"
   ([company] (section-links company (flatten (vals (:sections company)))))
@@ -62,7 +52,10 @@
     (let [company-slug (:slug company)
           section-name (keyword (first sections))
           section (company section-name)]
-      (recur (assoc company section-name (section-rep/section-links company-slug section-name section))
+      (recur (assoc company section-name (->> section
+                                          (section-rep/section-links company-slug section-name)
+                                          (section-rep/revision-links company-slug section-name)
+                                          (comment-rep/comment-links company-slug section-name)))
         (rest sections)))))
 
 (defn- revision-links
@@ -78,7 +71,6 @@
   [company]
   (-> company
     (revision-links)
-    (section-revision-links)
     (company-links)
     (section-links)
     (json/generate-string {:pretty true})))

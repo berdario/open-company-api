@@ -81,7 +81,8 @@
                   (string? (:comment-id comment-1)) => true
                   (check/timestamp? (:updated-at comment-1)) => true
                   (check/about-now? (:updated-at comment-1)) => true
-                  (:updated-at comment-1) => (:created-at comment-1)))
+                  (:updated-at comment-1) => (:created-at comment-1)
+                  (hateoas/verify-response-link r/slug "finances" comment-1)))
 
               (fact "there is a comment creation link"
                 (hateoas/verify-section-links r/slug "finances" (:links body)))))))
@@ -114,7 +115,8 @@
                     (string? (:comment-id comment-1)) => true
                     (check/timestamp? (:updated-at comment-1)) => true
                     (check/about-now? (:updated-at comment-1)) => true
-                    (:updated-at comment-1) => (:created-at comment-1)))
+                    (:updated-at comment-1) => (:created-at comment-1)
+                    (hateoas/verify-response-link r/slug "finances" comment-1)))
 
                 (fact "the response comment is in the comments array"
                   (let [comments (:comments body)
@@ -127,7 +129,8 @@
                     (string? (:comment-id comment-2)) => true
                     (check/timestamp? (:updated-at comment-2)) => true
                     (check/about-now? (:updated-at comment-2)) => true
-                    (:updated-at comment-2) => (:created-at comment-2)))
+                    (:updated-at comment-2) => (:created-at comment-2)
+                    (hateoas/verify-response-link r/slug "finances" comment-2)))
 
                 (fact "there is a comment creation link"
                   (hateoas/verify-section-links r/slug "finances" (:links body)))))))
@@ -157,7 +160,10 @@
                       (map string? (map :comment-id comments)) => [true true true]
                       (map check/timestamp? (map :updated-at comments)) => [true true true]
                       (map check/about-now? (map :updated-at comments)) => [true true true]
-                      (map :updated-at comments) => (map :created-at comments)))
+                      (map :updated-at comments) => (map :created-at comments)
+                      (hateoas/verify-response-link r/slug "finances" (first comments))
+                      (hateoas/verify-response-link r/slug "finances" (nth comments 1))
+                      (hateoas/verify-response-link r/slug "finances" (last comments))))
 
                   (fact "there is a comment creation link"
                     (hateoas/verify-section-links r/slug "finances" (:links body))))))))))))

@@ -21,25 +21,24 @@
 (defn- partial-update-link [company-slug section-name]
   (common/partial-update-link (url company-slug section-name) media-type))
 
-(defn- comment-link [company-slug section-name]
-  (common/link-map "comment" common/POST (comment-rep/url company-slug section-name) comment-rep/media-type))
-
 (defn- revision-link [company-slug section-name updated-at]
   (common/revision-link (url company-slug section-name updated-at) updated-at media-type))
 
 (defn section-links
   "Add the HATEAOS links to the section"
   ([section] (section-links (:company-slug section) (:section-name section) section))
+
   ([company-slug section-name section]
   (assoc section :links (flatten [
     (self-link company-slug section-name)
     (update-link company-slug section-name)
     (partial-update-link company-slug section-name)
-    (comment-link company-slug section-name)]))))
+    (comment-rep/comment-link company-slug section-name)]))))
 
 (defn revision-links
   "Add the HATEAOS revision links to the section"
   ([section] (revision-links (:company-slug section) (:section-name section) section))
+
   ([company-slug section-name section]
   (assoc section :revisions (flatten
     (map #(revision-link company-slug section-name (:updated-at %))
@@ -59,5 +58,6 @@
   (-> section
     (revision-links)
     (section-links)
+    (comment-rep/comment-links)
     (clean)
     (json/generate-string {:pretty true})))

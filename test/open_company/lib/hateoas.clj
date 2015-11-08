@@ -1,6 +1,7 @@
 (ns open-company.lib.hateoas
   "Utility functions for testing HATEOAS https://en.wikipedia.org/wiki/HATEOAS"
-  (:require [open-company.lib.check :refer (check)]
+  (:require [clojure.string :as s]
+            [open-company.lib.check :refer (check)]
             [open-company.representations.common :refer (GET POST PUT PATCH DELETE)]
             [open-company.representations.company :as company-rep]
             [open-company.representations.section :as section-rep]
@@ -33,3 +34,17 @@
     (verify-link "update" PUT url section-rep/media-type links)
     (verify-link "partial-update" PATCH url section-rep/media-type links)
     (verify-link "comment" POST (comment-rep/url company-slug section-name) comment-rep/media-type links)))
+
+(defn verify-response-link
+  [company-slug section-name comment]
+  (check (sequential? (:links comment)))
+  (if (not (s/blank? (:response-to comment)))
+    (check (zero? (count (:links comment)))) ; responses don't get a response link
+    (do
+      (check (= 1 (count (:links comment))))
+      (verify-link
+        "respond"
+        POST
+        (comment-rep/url company-slug section-name (:comment-id comment))
+        comment-rep/media-type
+        (:links comment)))))
