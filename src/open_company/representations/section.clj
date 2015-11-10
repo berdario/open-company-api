@@ -58,6 +58,7 @@
   (-> section
     (revision-links)
     (section-links)
+    (comment-rep/comment-order)
     (comment-rep/comment-links)
     (clean)))
 
