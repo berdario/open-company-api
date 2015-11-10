@@ -63,7 +63,7 @@
     (let [this-comment (first comments)
           comment-id (:comment-id this-comment)
           final-comments (conj accumulate-comments this-comment) ; comments so far plus this new comment
-          responses (response-map comment-id)] ; reverse chrono responses, if any
+          responses (response-map comment-id)] ; responses, if any
       ;; recur, adding in responses to this comment if there are any
       (recur (rest comments) response-map (if responses (conj final-comments responses) final-comments)))))
 
@@ -77,7 +77,7 @@
   [section]
   (let [all-comments (:comments section)
         comments (reverse (sort-by :updated-at (remove :response-to all-comments))) ; all comments in reverse chrono
-        responses (reverse (sort-by :updated-at (filter :response-to all-comments))) ; all responses in reverse chrono
+        responses (sort-by :updated-at (filter :response-to all-comments)) ; all responses in chrono order
         response-map (response-map responses)
         final-comments (collapse-comments-responses comments response-map)]
     (assoc section :comments final-comments)))
