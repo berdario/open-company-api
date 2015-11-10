@@ -1,5 +1,7 @@
 (ns open-company.representations.comment
-  (:require [open-company.representations.common :as common]))
+  (:require [clojure.string :as s]
+            [open-company.representations.common :as common]
+            [defun :refer (defun-)]))
   
 (def media-type "application/vnd.open-company.comment.v1+json")
 
@@ -28,3 +30,54 @@
   
   ([company-slug section-name section]
   (assoc section :comments (map #(response-link company-slug section-name %) (:comments section)))))
+
+(defun- response-map
+  "Create a map by comment-id of a sorted array of all the responses to that "
+
+  ;; initial
+  ([comments] (response-map comments {}))
+
+  ;; all done
+  ([comments :guard empty? responses] responses)
+
+  ([comments responses]
+  (let [this-comment (first comments)
+        response-id (:response-to this-comment)
+        comment-responses (responses response-id) ; sibling responses, if any
+        new-responses (if comment-responses
+                        (assoc responses response-id (conj comment-responses this-comment)) ; this is another response
+                        (assoc responses response-id [this-comment]))] ; this is the first response
+    (recur (rest comments) new-responses))))
+
+(defun- collapse-comments-responses
+  "Given a sorted set of comments, add any responses to them, in reverse chronological order after the
+  comment and before the next comment"
+  
+  ;; initial
+  ([comments response-map] (collapse-comments-responses comments response-map []))
+  
+  ;; all done
+  ([comments :guard empty? response-map final-comments] (vec (flatten final-comments)))
+
+  ([comments response-map accumulate-comments]
+    (let [this-comment (first comments)
+          comment-id (:comment-id this-comment)
+          final-comments (conj accumulate-comments this-comment) ; comments so far plus this new comment
+          responses (response-map comment-id)] ; reverse chrono responses, if any
+      ;; recur, adding in responses to this comment if there are any
+      (recur (rest comments) response-map (if responses (conj final-comments responses) final-comments)))))
+
+(defn comment-order
+  "
+  Put comments into a natural order for display:
+
+  - Reverse chronological
+  - Replies following the comment they reply to.
+  "
+  [section]
+  (let [all-comments (:comments section)
+        comments (reverse (sort-by :updated-at (remove :response-to all-comments))) ; all comments in reverse chrono
+        responses (reverse (sort-by :updated-at (filter :response-to all-comments))) ; all responses in reverse chrono
+        response-map (response-map responses)
+        final-comments (collapse-comments-responses comments response-map)]
+    (assoc section :comments final-comments)))
