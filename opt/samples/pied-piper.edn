@@ -24,82 +24,7 @@
       :section {
         :title "Values"
         :body
-          "<h3>1. Choose positivity</h3>
-          <ul>
-            <li>You strive to approach things in a positive and optimistic way</li>
-            <li>You avoid criticizing or condemning team members or users</li>
-            <li>You avoid complaining</li>
-            <li>You let the other person save face, even if they are clearly wrong</li>
-            <li>You are deliberate about giving genuine appreciation</li>
-          </ul>
-          <h3>2. Default to transparency</h3>
-          <ul>
-            <li>You take pride in opportunities to share our beliefs, failures, strengths and decisions</li>
-            <li>You use transparency as a tool to help others</li>
-            <li>You always state your thoughts immediately and with honesty</li>
-            <li>You share early in the decision process, to avoid \"big revelations\"</li>
-          </ul>
-          <h3>3. Focus on self-improvement</h3>
-          <ul>
-            <li>You are conscious of your current level of productivity and happiness, and make continual change to grow</li>
-            <li>You have a higher expectation of yourself, than Pied Piper does of you</li>
-            <li>You regularly and deliberately do things that make you feel uncomfortable</li>
-            <li>You practice activities and develop habits that improve your mind and your body</li>
-          </ul>
-          <h3>4. Be a \"no-ego\" Doer</h3>
-          <ul>
-            <li>You don't attach your personal self to ideas</li>
-            <li>You let others have your best ideas</li>
-            <li>You approach new ideas thinking \"what can we do right now?\"</li>
-            <li>You are humble</li>
-            <li>You always ship code the moment it is better than what is live on our site - no matter what</li>
-          </ul>
-          <h3>5. Listen First, Then Listen More</h3>
-          <ul>
-            <li>You seek first to understand, then to be understood</li>
-            <li>You focus on listening rather than responding</li>
-            <li>You take the approach that everything is a hypothesis and you could be wrong</li>
-            <li>You are suggestive rather than instructive, replacing phrases such as 'certainly','undoubtedly',
-            etc with 'perhaps', 'I think', 'my intuition right now'</li>
-          </ul>
-          <h3>6. Have a Bias Towards Clarity</h3>
-          <ul>
-            <li>You talk, code, design and write in a clear way instead of being clever</li>
-            <li>You over-communicate, repeating things more times than you would intuitively</li>
-            <li>You use more words to explain, even if it feels obvious already</li>
-            <li>You don't make assumptions, you instead ask that extra question to have the full picture</li>
-          </ul>
-          <h3>7. Make Time to Reflect</h3>
-          <ul>
-            <li>You deliberately find time for reflection, because that's where your life-changing adjustments come from</li>
-            <li>You have a calm approach to discussions and ponder points in your own time</li>
-            <li>You find time to jump out of the trenches into the higher level thinking that will move the needle</li>
-            <li>You understand the value of patience and treat it as a muscle which needs practice to grow</li>
-          </ul>
-          <h3>8. Live Smarter, Not Harder</h3>
-          <ul>
-            <li>You value waking up fresh over working that extra hour</li>
-            <li>You always aim to be fully engaged in an activity, or resting</li>
-            <li>You single task your way through the day</li>
-            <li>You are at the top of your game, as you focus on expanding capacity of your mental, physical, emotional and spiritual energy</li>
-            <li>You choose to be at the single place on Earth where you are the happiest, and most productive, and you are not afraid to find out where that is</li>
-          </ul>
-          <h3>9. Show Gratitude</h3>
-          <ul>
-            <li>You regularly stop and are grateful for your circumstances</li>
-            <li>You are grateful for the work co-workers do to push the company forward and help you move faster</li>
-            <li>You approach customer conversations with humility and the knowledge that it's a privilege to
-            serve these people</li>
-            <li>You have gratitude for platforms, tools and open source that laid the foundation for the possibility
-            of the company: \"If I have seen further it is by standing on the shoulders of giants\" - Isaac Newton</li>
-          </ul>
-          <h3>10. Do the Right Thing</h3>
-          <ul>
-            <li>You choose what's best for customers and the company in the long-term</li>
-            <li>You correct the mistake even when no one would notice</li>
-            <li>You strive to provide the best solution, even if that means foregoing profit</li>
-            <li>You get excited about opportunities to help others</li>
-          </ul>"
+          "%3Ch3%3E1.%20Choose%20positivity%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20strive%20to%20approach%20things%20in%20a%20positive%20and%20optimistic%20way%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20avoid%20criticizing%20or%20condemning%20team%20members%20or%20users%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20avoid%20complaining%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20let%20the%20other%20person%20save%20face%2C%20even%20if%20they%20are%20clearly%20wrong%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20deliberate%20about%20giving%20genuine%20appreciation%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E2.%20Default%20to%20transparency%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20take%20pride%20in%20opportunities%20to%20share%20our%20beliefs%2C%20failures%2C%20strengths%20and%20decisions%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20use%20transparency%20as%20a%20tool%20to%20help%20others%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20always%20state%20your%20thoughts%20immediately%20and%20with%20honesty%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20share%20early%20in%20the%20decision%20process%2C%20to%20avoid%20%22big%20revelations%22%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E3.%20Focus%20on%20self-improvement%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20conscious%20of%20your%20current%20level%20of%20productivity%20and%20happiness%2C%20and%20make%20continual%20change%20to%20grow%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20have%20a%20higher%20expectation%20of%20yourself%2C%20than%20Pied Piper%20does%20of%20you%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20regularly%20and%20deliberately%20do%20things%20that%20make%20you%20feel%20uncomfortable%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20practice%20activities%20and%20develop%20habits%20that%20improve%20your%20mind%20and%20your%20body%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E4.%20Be%20a%20%22no-ego%22%20Doer%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20don%27t%20attach%20your%20personal%20self%20to%20ideas%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20let%20others%20have%20your%20best%20ideas%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20approach%20new%20ideas%20thinking%20%22what%20can%20we%20do%20right%20now%3F%22%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20humble%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20always%20ship%20code%20the%20moment%20it%20is%20better%20than%20what%20is%20live%20on%20our%20site%20-%20no%20matter%20what%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E5.%20Listen%20First%2C%20Then%20Listen%20More%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20seek%20first%20to%20understand%2C%20then%20to%20be%20understood%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20focus%20on%20listening%20rather%20than%20responding%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20take%20the%20approach%20that%20everything%20is%20a%20hypothesis%20and%20you%20could%20be%20wrong%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20suggestive%20rather%20than%20instructive%2C%20replacing%20phrases%20such%20as%20%27certainly%27%2C%27undoubtedly%27%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20etc%20with%20%27perhaps%27%2C%20%27I%20think%27%2C%20%27my%20intuition%20right%20now%27%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E6.%20Have%20a%20Bias%20Towards%20Clarity%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20talk%2C%20code%2C%20design%20and%20write%20in%20a%20clear%20way%20instead%20of%20being%20clever%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20over-communicate%2C%20repeating%20things%20more%20times%20than%20you%20would%20intuitively%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20use%20more%20words%20to%20explain%2C%20even%20if%20it%20feels%20obvious%20already%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20don%27t%20make%20assumptions%2C%20you%20instead%20ask%20that%20extra%20question%20to%20have%20the%20full%20picture%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E7.%20Make%20Time%20to%20Reflect%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20deliberately%20find%20time%20for%20reflection%2C%20because%20that%27s%20where%20your%20life-changing%20adjustments%20come%20from%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20have%20a%20calm%20approach%20to%20discussions%20and%20ponder%20points%20in%20your%20own%20time%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20find%20time%20to%20jump%20out%20of%20the%20trenches%20into%20the%20higher%20level%20thinking%20that%20will%20move%20the%20needle%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20understand%20the%20value%20of%20patience%20and%20treat%20it%20as%20a%20muscle%20which%20needs%20practice%20to%20grow%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E8.%20Live%20Smarter%2C%20Not%20Harder%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20value%20waking%20up%20fresh%20over%20working%20that%20extra%20hour%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20always%20aim%20to%20be%20fully%20engaged%20in%20an%20activity%2C%20or%20resting%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20single%20task%20your%20way%20through%20the%20day%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20at%20the%20top%20of%20your%20game%2C%20as%20you%20focus%20on%20expanding%20capacity%20of%20your%20mental%2C%20physical%2C%20emotional%20and%20spiritual%20energy%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20choose%20to%20be%20at%20the%20single%20place%20on%20Earth%20where%20you%20are%20the%20happiest%2C%20and%20most%20productive%2C%20and%20you%20are%20not%20afraid%20to%20find%20out%20where%20that%20is%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E9.%20Show%20Gratitude%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20regularly%20stop%20and%20are%20grateful%20for%20your%20circumstances%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20are%20grateful%20for%20the%20work%20co-workers%20do%20to%20push%20the%20company%20forward%20and%20help%20you%20move%20faster%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20approach%20customer%20conversations%20with%20humility%20and%20the%20knowledge%20that%20it%27s%20a%20privilege%20to%0A%20%20%20%20%20%20%20%20%20%20%20%20serve%20these%20people%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20have%20gratitude%20for%20platforms%2C%20tools%20and%20open%20source%20that%20laid%20the%20foundation%20for%20the%20possibility%0A%20%20%20%20%20%20%20%20%20%20%20%20of%20the%20company%3A%20%22If%20I%20have%20seen%20further%20it%20is%20by%20standing%20on%20the%20shoulders%20of%20giants%22%20-%20Isaac%20Newton%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3E10.%20Do%20the%20Right%20Thing%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20choose%20what%27s%20best%20for%20customers%20and%20the%20company%20in%20the%20long-term%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20correct%20the%20mistake%20even%20when%20no%20one%20would%20notice%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20strive%20to%20provide%20the%20best%20solution%2C%20even%20if%20that%20means%20foregoing%20profit%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EYou%20get%20excited%20about%20opportunities%20to%20help%20others%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "values"
       :author {
@@ -113,9 +38,7 @@
     {
       :section {
         :title "Mission"
-        :body "Our vision at Pied Piper is to build the simplest and most powerful social media tool, and to set the bar
-        for great customer support. In addition to these product and service goals, we have a focus on building one
-        of the most unique and fulfilling workplaces that exist, by rethinking a lot of traditional practices."
+        :body "Our%20vision%20at%20Pied Piper%20is%20to%20build%20the%20simplest%20and%20most%20powerful%20social%20media%20tool%2C%20and%20to%20set%20the%20bar%0A%20%20%20%20%20%20%20%20for%20great%20customer%20support.%20In%20addition%20to%20these%20product%20and%20service%20goals%2C%20we%20have%20a%20focus%20on%20building%20one%0A%20%20%20%20%20%20%20%20of%20the%20most%20unique%20and%20fulfilling%20workplaces%20that%20exist%2C%20by%20rethinking%20a%20lot%20of%20traditional%20practices."
       }
       :section-name "mission"
       :author {
@@ -205,11 +128,7 @@
           }
         ]
         :notes {
-          :body "<p>The change in trajectory around October 2013 is most likely attributable to us launching
-          <a href=\"https://buffer.com/business\">Pied Piper for Business</a>.</p>
-          <p>This is exciting as recently we've started discussions within the team of doubling down further on
-          Pied Piper for Business and creating a dedicated product/engineering team to serve those customer problems
-          even better.</p>"
+          :body "%3Cp%3EThe%20change%20in%20trajectory%20around%20October%202013%20is%20most%20likely%20attributable%20to%20us%20launching%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//buffer.com/business%22%3EPied Piper%20for%20Business%3C/a%3E.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EThis%20is%20exciting%20as%20recently%20we%27ve%20started%20discussions%20within%20the%20team%20of%20doubling%20down%20further%20on%0A%20%20%20%20%20%20%20%20%20%20Pied Piper%20for%20Business%20and%20creating%20a%20dedicated%20product/engineering%20team%20to%20serve%20those%20customer%20problems%0A%20%20%20%20%20%20%20%20%20%20even%20better.%3C/p%3E"
         }
       }
       :section-name "growth"
@@ -224,25 +143,7 @@
     {
       :section {
         :title "Update"
-        :body "<h3>Key changes to self-management at Pied Piper</h3>
-        <p>Building on our self-management learnings, we have started to make some key changes to how we view
-        self-management and work together.</p>
-        <p>We're moving away from self-management being synonymous with 'no structure'. We've realized that hierarchy
-        and structure are very different things, and structure is key to working efficiently. Some of the changes
-        that have resulted include:</p>
-        <ul>
-          <li>A bias towards small teams with clear roles. Small teams can feel more ownership and move fast.</li>
-          <li>Embracing the idea of higher level work as a separate task carried out by people, rather than spread
-          across everyone.</li>
-          <li>Starting up mentorship again, through regular 1:1s. 1:1s are a great way to maintain help and
-          guidance, without managers.</li>
-        </ul>
-        <p>To tie all this together, we have started to develop our own internal tool to help us organize ourselves
-        and create visibility to the roles people have. Here are a few screenshots (still very much a work
-        in progress):<p>
-        <img src=\"https://open.bufferapp.com/wp-content/uploads/2015/07/HQ2.png\">
-        <br>
-        <img src=\"https://open.bufferapp.com/wp-content/uploads/2015/07/HQ1.png\">"
+        :body "%3Ch3%3EKey%20changes%20to%20self-management%20at%20Pied Piper%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EBuilding%20on%20our%20self-management%20learnings%2C%20we%20have%20started%20to%20make%20some%20key%20changes%20to%20how%20we%20view%0A%20%20%20%20%20%20%20%20self-management%20and%20work%20together.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%27re%20moving%20away%20from%20self-management%20being%20synonymous%20with%20%27no%20structure%27.%20We%27ve%20realized%20that%20hierarchy%0A%20%20%20%20%20%20%20%20and%20structure%20are%20very%20different%20things%2C%20and%20structure%20is%20key%20to%20working%20efficiently.%20Some%20of%20the%20changes%0A%20%20%20%20%20%20%20%20that%20have%20resulted%20include%3A%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EA%20bias%20towards%20small%20teams%20with%20clear%20roles.%20Small%20teams%20can%20feel%20more%20ownership%20and%20move%20fast.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EEmbracing%20the%20idea%20of%20higher%20level%20work%20as%20a%20separate%20task%20carried%20out%20by%20people%2C%20rather%20than%20spread%0A%20%20%20%20%20%20%20%20%20%20across%20everyone.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EStarting%20up%20mentorship%20again%2C%20through%20regular%201%3A1s.%201%3A1s%20are%20a%20great%20way%20to%20maintain%20help%20and%0A%20%20%20%20%20%20%20%20%20%20guidance%2C%20without%20managers.%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%3Cp%3ETo%20tie%20all%20this%20together%2C%20we%20have%20started%20to%20develop%20our%20own%20internal%20tool%20to%20help%20us%20organize%20ourselves%0A%20%20%20%20%20%20%20%20and%20create%20visibility%20to%20the%20roles%20people%20have.%20Here%20are%20a%20few%20screenshots%20%28still%20very%20much%20a%20work%0A%20%20%20%20%20%20%20%20in%20progress%29%3A%3Cp%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.bufferapp.com/wp-content/uploads/2015/07/HQ2.png%22%3E%0A%20%20%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.bufferapp.com/wp-content/uploads/2015/07/HQ1.png%22%3E"
       }
       :section-name "update"
       :author {
@@ -256,12 +157,7 @@
     {
       :section {
         :title "Asks"
-        :body "<p>I'm trying to learn how companies structure product, design and front-end development (CSS).
-        These seem like overlapping areas, and could easily be 3 people, or could be one person who has ability
-        in all areas. With 1 person rather than 3, it feels possible to move much faster.</p>
-        <p>I'm keen to learn how other companies balance expertise and specialization vs speed. If you have any
-        thoughts here or know someone who might have thoughts (maybe a founder, CPO or product people), I'd love
-        to hear from you! Thanks.</p>"
+        :body "%3Cp%3EI%27m%20trying%20to%20learn%20how%20companies%20structure%20product%2C%20design%20and%20front-end%20development%20%28CSS%29.%0A%20%20%20%20%20%20%20%20These%20seem%20like%20overlapping%20areas%2C%20and%20could%20easily%20be%203%20people%2C%20or%20could%20be%20one%20person%20who%20has%20ability%0A%20%20%20%20%20%20%20%20in%20all%20areas.%20With%201%20person%20rather%20than%203%2C%20it%20feels%20possible%20to%20move%20much%20faster.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EI%27m%20keen%20to%20learn%20how%20other%20companies%20balance%20expertise%20and%20specialization%20vs%20speed.%20If%20you%20have%20any%0A%20%20%20%20%20%20%20%20thoughts%20here%20or%20know%20someone%20who%20might%20have%20thoughts%20%28maybe%20a%20founder%2C%20CPO%20or%20product%20people%29%2C%20I%27d%20love%0A%20%20%20%20%20%20%20%20to%20hear%20from%20you%21%20Thanks.%3C/p%3E"
       }
       :section-name "help"
       :author {
@@ -275,16 +171,7 @@
     {
       :section {
         :title "Team"
-        :body "<h3>Fastest-ever growth and hiring push</h3>
-        <ul>
-          <li>34 fully on board team members.</li>
-          <li>2 new people finished bootcamp and fully joined the team:
-          <a href=\"https://open.bufferapp.com/kat-zien-has-joined-buffer-as-a-back-end-developer/\">Kat</a>
-          (Engineer) and Danny (Happiness Hero).
-          <li>6 people have accepted offers to join the team in the coming weeks/months (3 Product Creators,
-            2 Engineers, 1 Community Champion). This will make us 40 people.
-          <li>We're hiring for <a href=\"https://buffer.com/journey\">14 (!) different positions</a>
-        </ul>"
+        :body "%3Ch3%3EFastest-ever%20growth%20and%20hiring%20push%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E34%20fully%20on%20board%20team%20members.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E2%20new%20people%20finished%20bootcamp%20and%20fully%20joined%20the%20team%3A%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//open.bufferapp.com/kat-zien-has-joined-buffer-as-a-back-end-developer/%22%3EKat%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20%28Engineer%29%20and%20Danny%20%28Happiness%20Hero%29.%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E6%20people%20have%20accepted%20offers%20to%20join%20the%20team%20in%20the%20coming%20weeks/months%20%283%20Product%20Creators%2C%0A%20%20%20%20%20%20%20%20%20%20%20%202%20Engineers%2C%201%20Community%20Champion%29.%20This%20will%20make%20us%2040%20people.%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27re%20hiring%20for%20%3Ca%20href%3D%22https%3A//buffer.com/journey%22%3E14%20%28%21%29%20different%20positions%3C/a%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "team"
       :author {
@@ -298,17 +185,7 @@
     {
       :section {
         :title "Product"
-        :body "<h3>Pinterest, Pablo improvements</h3>
-        <ul>
-          <li>We soft-launched improvements to our Pinterest scheduling capabilities, including letting you
-          pick an image from the page.</li>
-          <li>We made improvements to <a href=\"https://buffer.com/pablo\">Pablo</a>, our super-fast image creation
-          tool. A key one is that you can select text from a page and right click > Create Image with Pablo in
-          order to create an image with the selected quote over the top like so:
-          <img src=\"https://open.bufferapp.com/wp-content/uploads/2015/07/right-click-with-Pablo1.png\"></li>
-          <li>We're very close to rolling out the ability to schedule new 'Retweet with Comment' Tweets using
-          Pied Piper.</li>
-        </ul>"
+        :body "%3Ch3%3EPinterest%2C%20Pablo%20improvements%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20soft-launched%20improvements%20to%20our%20Pinterest%20scheduling%20capabilities%2C%20including%20letting%20you%0A%20%20%20%20%20%20%20%20%20%20pick%20an%20image%20from%20the%20page.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20made%20improvements%20to%20%3Ca%20href%3D%22https%3A//buffer.com/pablo%22%3EPablo%3C/a%3E%2C%20our%20super-fast%20image%20creation%0A%20%20%20%20%20%20%20%20%20%20tool.%20A%20key%20one%20is%20that%20you%20can%20select%20text%20from%20a%20page%20and%20right%20click%20%3E%20Create%20Image%20with%20Pablo%20in%0A%20%20%20%20%20%20%20%20%20%20order%20to%20create%20an%20image%20with%20the%20selected%20quote%20over%20the%20top%20like%20so%3A%0A%20%20%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.bufferapp.com/wp-content/uploads/2015/07/right-click-with-Pablo1.png%22%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27re%20very%20close%20to%20rolling%20out%20the%20ability%20to%20schedule%20new%20%27Retweet%20with%20Comment%27%20Tweets%20using%0A%20%20%20%20%20%20%20%20%20%20Pied Piper.%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "product"
       :author {
@@ -339,11 +216,7 @@
           }
         ]
         :notes {
-          :body "<p>At the start of July, we had our 6th team retreat! Despite the substantial cost of
-          this and growing the team faster than ever, we are still profitable and the bank balance has
-          gone up since last month.</p>
-          <p>We are very happy with this slack we have and the health of the business, and at the same
-          time we would like to grow the team faster and continue filling validated roles.</p>"
+          :body "%3Cp%3EAt%20the%20start%20of%20July%2C%20we%20had%20our%206th%20team%20retreat%21%20Despite%20the%20substantial%20cost%20of%0A%20%20%20%20%20%20%20%20%20%20this%20and%20growing%20the%20team%20faster%20than%20ever%2C%20we%20are%20still%20profitable%20and%20the%20bank%20balance%20has%0A%20%20%20%20%20%20%20%20%20%20gone%20up%20since%20last%20month.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20are%20very%20happy%20with%20this%20slack%20we%20have%20and%20the%20health%20of%20the%20business%2C%20and%20at%20the%20same%0A%20%20%20%20%20%20%20%20%20%20time%20we%20would%20like%20to%20grow%20the%20team%20faster%20and%20continue%20filling%20validated%20roles.%3C/p%3E"
         }
       }
       :section-name "finances"
@@ -432,8 +305,7 @@
           }
         ]
         :notes {
-          :body "<p>We're happy to keep our growth rate fairly steady around 3-4%, and we also have some plans
-          which may help us grow a little faster.</p>"
+          :body "%3Cp%3EWe%27re%20happy%20to%20keep%20our%20growth%20rate%20fairly%20steady%20around%203-4%25%2C%20and%20we%20also%20have%20some%20plans%0A%20%20%20%20%20%20%20%20%20%20which%20may%20help%20us%20grow%20a%20little%20faster.%3C/p%3E"
         }
       }
       :section-name "growth"
@@ -448,17 +320,7 @@
     {
       :section {
         :title "Asks"
-        :body "<ul>
-          <li>We're continuing our fast pace of <a href=\"https://buffer.com/journey\">growing the team</a>, and
-          we'd love your help to spread the word about all our current open positions.
-          <a href=\"https://twitter.com/intent/tweet/?text=.@buffer%20is%20growing%20faster%20than%20ever,%20now%20is%20the%20perfect%20time%20to%20jump%20on%20the%20rocket%20ship.%20See%20their%20open%20roles%20here:&url=https%3A%2F%2Fbufferapp.com%2Fjourney\">Tweet</a>
-          or <a href=\"https://buffer.com/add/?url=https%3A%2F%2Fbuffer.com%2Fjourney&text=.@buffer%20is%20growing%20faster%20than%20ever,%20now%20is%20the%20perfect%20time%20to%20jump%20on%20the%20rocket%20ship.%20See%20their%20open%20roles%20here:%20&version=2.12.7&placement=hotkey\">Pied Piper</a>.</li>
-          <li><a href=\"http://www.inc.com/jeff-haden/the-7-million-startup-with-zero-managers.html\">The $7 Million
-          Startup With Zero Managers</a>: We were lucky to have a great writeup about the current state of
-          self-management at Pied Piper on Inc. We'd love you to share the post.
-          <a href=\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.inc.com%2Fjeff-haden%2Fthe-7-million-startup-with-zero-managers.html&text=%22The%20%247%20Million%20Startup%20With%20Zero%20Managers%22\">Tweet</a>
-          or <a href=\"https://buffer.com/add/?url=http%3A%2F%2Fwww.inc.com%2Fjeff-haden%2Fthe-7-million-startup-with-zero-managers.html&text=%22The%20%247%20Million%20Startup%20With%20Zero%20Managers%22&version=2.12.9&placement=toolbar\">Pied Piper</a>.</li>
-        </ul>"
+        :body "%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27re%20continuing%20our%20fast%20pace%20of%20%3Ca%20href%3D%22https%3A//buffer.com/journey%22%3Egrowing%20the%20team%3C/a%3E%2C%20and%0A%20%20%20%20%20%20%20%20%20%20we%27d%20love%20your%20help%20to%20spread%20the%20word%20about%20all%20our%20current%20open%20positions.%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/intent/tweet/%3Ftext%3D.@buffer%2520is%2520growing%2520faster%2520than%2520ever%2C%2520now%2520is%2520the%2520perfect%2520time%2520to%2520jump%2520on%2520the%2520rocket%2520ship.%2520See%2520their%2520open%2520roles%2520here%3A%26url%3Dhttps%253A%252F%252Fbufferapp.com%252Fjourney%22%3ETweet%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20or%20%3Ca%20href%3D%22https%3A//buffer.com/add/%3Furl%3Dhttps%253A%252F%252Fbuffer.com%252Fjourney%26text%3D.@buffer%2520is%2520growing%2520faster%2520than%2520ever%2C%2520now%2520is%2520the%2520perfect%2520time%2520to%2520jump%2520on%2520the%2520rocket%2520ship.%2520See%2520their%2520open%2520roles%2520here%3A%2520%26version%3D2.12.7%26placement%3Dhotkey%22%3EPied Piper%3C/a%3E.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22http%3A//www.inc.com/jeff-haden/the-7-million-startup-with-zero-managers.html%22%3EThe%20%247%20Million%0A%20%20%20%20%20%20%20%20%20%20Startup%20With%20Zero%20Managers%3C/a%3E%3A%20We%20were%20lucky%20to%20have%20a%20great%20writeup%20about%20the%20current%20state%20of%0A%20%20%20%20%20%20%20%20%20%20self-management%20at%20Pied Piper%20on%20Inc.%20We%27d%20love%20you%20to%20share%20the%20post.%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/intent/tweet%3Furl%3Dhttp%253A%252F%252Fwww.inc.com%252Fjeff-haden%252Fthe-7-million-startup-with-zero-managers.html%26text%3D%2522The%2520%25247%2520Million%2520Startup%2520With%2520Zero%2520Managers%2522%22%3ETweet%3C/a%3E%0A%20%20%20%20%20%20%20%20%20%20or%20%3Ca%20href%3D%22https%3A//buffer.com/add/%3Furl%3Dhttp%253A%252F%252Fwww.inc.com%252Fjeff-haden%252Fthe-7-million-startup-with-zero-managers.html%26text%3D%2522The%2520%25247%2520Million%2520Startup%2520With%2520Zero%2520Managers%2522%26version%3D2.12.9%26placement%3Dtoolbar%22%3EPied Piper%3C/a%3E.%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "help"
       :author {
@@ -472,30 +334,7 @@
     {
       :section {
         :title "Update"
-        :body "
-          <h3>Retreat</h3>
-          <ul>
-            <li>Our biggest retreat yet, with 31 team members present</li>
-            <li>We all flew in from various corners of the world to meet in Iceland</li>
-            <li>We also invited <a href=\"https://open.bufferapp.com/family-at-buffer/\">significant others</a> for the first time ever</li>
-            <li>It was a fantastic week with a balance of working within our teams, having higher level discussions and activities to bond</li>
-            <li><a href=\"https://open.bufferapp.com/buffer-retreats/\">Read an article about the evolution of the Pied Piper retreat and our learnings along the way</a></li>
-          </ul>
-          <h3>Company Structure</h3>
-          <ul>
-            <li>Last month we mentioned a shift towards adding more structure and making roles and commitments explicit</li>
-            <li>We have now made the transition to working in small teams of 4-5 people</li>
-            <li>We are working based on areas of the product, customer segments, and other logical separations</li>
-            <li>We have fully reintroduced mentorship as well as higher level strategy roles. We've re-established everyone in the team having a weekly 1:1 with someone who has significant experience both in their role and within Pied Piper and with our culture. Several of us in the team have shifted our focus to solving higher level challenges such as company structure, culture of different areas such as product, happiness and engineering, as well as other strategic tasks.</li>
-            <li><a href=\"https://open.bufferapp.com/self-management-hierarchy/\">Read an article from Leo where he shares all of our mistakes, learnings and new adjustments for self-management at Pied Piper</a></li>
-          </ul>
-          <h3>Happiness, Community and Marketing</h3>
-          <ul>
-            <li>We started to stream some talks from myself and Leo via Periscope and have had a great reception!</li>
-            <li>We paused the blog and worked on many other initiatives, with some <a href=\"https://blog.bufferapp.com/blog-strategies\">great results and learnings</a></li>
-            <li>The Happiness team has also transitioned to working in separate areas, giving more ownership and freedom
-            to innovate and progress in individual areas (e.g. Awesome Plan customers, Mobile support, Pied Piper for Business support)</li>
-          </ul>"
+        :body "%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3ERetreat%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EOur%20biggest%20retreat%20yet%2C%20with%2031%20team%20members%20present%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20all%20flew%20in%20from%20various%20corners%20of%20the%20world%20to%20meet%20in%20Iceland%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20also%20invited%20%3Ca%20href%3D%22https%3A//open.bufferapp.com/family-at-buffer/%22%3Esignificant%20others%3C/a%3E%20for%20the%20first%20time%20ever%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EIt%20was%20a%20fantastic%20week%20with%20a%20balance%20of%20working%20within%20our%20teams%2C%20having%20higher%20level%20discussions%20and%20activities%20to%20bond%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22https%3A//open.bufferapp.com/buffer-retreats/%22%3ERead%20an%20article%20about%20the%20evolution%20of%20the%20Pied Piper%20retreat%20and%20our%20learnings%20along%20the%20way%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3ECompany%20Structure%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3ELast%20month%20we%20mentioned%20a%20shift%20towards%20adding%20more%20structure%20and%20making%20roles%20and%20commitments%20explicit%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20have%20now%20made%20the%20transition%20to%20working%20in%20small%20teams%20of%204-5%20people%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20are%20working%20based%20on%20areas%20of%20the%20product%2C%20customer%20segments%2C%20and%20other%20logical%20separations%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20have%20fully%20reintroduced%20mentorship%20as%20well%20as%20higher%20level%20strategy%20roles.%20We%27ve%20re-established%20everyone%20in%20the%20team%20having%20a%20weekly%201%3A1%20with%20someone%20who%20has%20significant%20experience%20both%20in%20their%20role%20and%20within%20Pied Piper%20and%20with%20our%20culture.%20Several%20of%20us%20in%20the%20team%20have%20shifted%20our%20focus%20to%20solving%20higher%20level%20challenges%20such%20as%20company%20structure%2C%20culture%20of%20different%20areas%20such%20as%20product%2C%20happiness%20and%20engineering%2C%20as%20well%20as%20other%20strategic%20tasks.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E%3Ca%20href%3D%22https%3A//open.bufferapp.com/self-management-hierarchy/%22%3ERead%20an%20article%20from%20Leo%20where%20he%20shares%20all%20of%20our%20mistakes%2C%20learnings%20and%20new%20adjustments%20for%20self-management%20at%20Pied Piper%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ch3%3EHappiness%2C%20Community%20and%20Marketing%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20started%20to%20stream%20some%20talks%20from%20myself%20and%20Leo%20via%20Periscope%20and%20have%20had%20a%20great%20reception%21%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20paused%20the%20blog%20and%20worked%20on%20many%20other%20initiatives%2C%20with%20some%20%3Ca%20href%3D%22https%3A//blog.bufferapp.com/blog-strategies%22%3Egreat%20results%20and%20learnings%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EThe%20Happiness%20team%20has%20also%20transitioned%20to%20working%20in%20separate%20areas%2C%20giving%20more%20ownership%20and%20freedom%0A%20%20%20%20%20%20%20%20%20%20%20%20to%20innovate%20and%20progress%20in%20individual%20areas%20%28e.g.%20Awesome%20Plan%20customers%2C%20Mobile%20support%2C%20Pied Piper%20for%20Business%20support%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "update"
       :author {
@@ -509,13 +348,7 @@
     {
       :section {
         :title "Team"
-        :body "<ul>
-          <li>37 total team members</li>
-          <li>11 people accepted our offers to join the team in the coming weeks and months</li>
-          <li>We received around <a href=\"https://open.bufferapp.com/hiring-july-2015/\">1,500 applications in July</a></li>
-          <li>We are still growing the team fast, and have <a href=\"https://buffer.com/journey\">13 open roles we are hiring for</a></li>
-          <li>We also intend to put together listings and start inviting applications for an Android Developer and an Executive Assistant during August, bringing our open roles to 15</li>
-        </ul>"
+        :body "%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E37%20total%20team%20members%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E11%20people%20accepted%20our%20offers%20to%20join%20the%20team%20in%20the%20coming%20weeks%20and%20months%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20received%20around%20%3Ca%20href%3D%22https%3A//open.bufferapp.com/hiring-july-2015/%22%3E1%2C500%20applications%20in%20July%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20are%20still%20growing%20the%20team%20fast%2C%20and%20have%20%3Ca%20href%3D%22https%3A//buffer.com/journey%22%3E13%20open%20roles%20we%20are%20hiring%20for%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20also%20intend%20to%20put%20together%20listings%20and%20start%20inviting%20applications%20for%20an%20Android%20Developer%20and%20an%20Executive%20Assistant%20during%20August%2C%20bringing%20our%20open%20roles%20to%2015%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "team"
       :author {
@@ -529,14 +362,7 @@
     {
       :section {
         :title "Product"
-        :body "<ul>
-          <li>We've started an experiment testing allowing people to pay for the <a href=\"https://buffer.com/awesome\">Awesome Plan</a> in Euros</li>
-          <li>We have continued our plan to <a href=\"https://open.bufferapp.com/retiring-suggestions/\">sunset the Suggestions feature</a></li>
-            <li>We've made some key speed and reliability improvements to <a href=\"https://buffer.com/business\">Pied Piper for Business</a></li>
-          <li>We have started to engage in sales conversations and set up customer success for larger business & enterprise</li>
-          <li>We're in the early stages of experimenting with a progress indicator in the onboarding flow</li>
-          <li>We're exploring ways to allow sharing multiple photos to Twitter and Facebook</li>
-        </ul>"
+        :body "%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27ve%20started%20an%20experiment%20testing%20allowing%20people%20to%20pay%20for%20the%20%3Ca%20href%3D%22https%3A//buffer.com/awesome%22%3EAwesome%20Plan%3C/a%3E%20in%20Euros%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20have%20continued%20our%20plan%20to%20%3Ca%20href%3D%22https%3A//open.bufferapp.com/retiring-suggestions/%22%3Esunset%20the%20Suggestions%20feature%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27ve%20made%20some%20key%20speed%20and%20reliability%20improvements%20to%20%3Ca%20href%3D%22https%3A//buffer.com/business%22%3EPied Piper%20for%20Business%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20have%20started%20to%20engage%20in%20sales%20conversations%20and%20set%20up%20customer%20success%20for%20larger%20business%20%26%20enterprise%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27re%20in%20the%20early%20stages%20of%20experimenting%20with%20a%20progress%20indicator%20in%20the%20onboarding%20flow%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27re%20exploring%20ways%20to%20allow%20sharing%20multiple%20photos%20to%20Twitter%20and%20Facebook%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "product"
       :author {
@@ -572,10 +398,7 @@
           }
         ]
         :notes {
-          :body "<p>We're delighted to hit almost $7.5M in annual recurring revenue and be fast moving
-          towards the big $10M ARR milestone.</p>
-          <p>As a company, we're starting to feel that some of our recent team growth and structure adjustments
-          in the last few months are starting to take effect.</p>"
+          :body "%3Cp%3EWe%27re%20delighted%20to%20hit%20almost%20%247.5M%20in%20annual%20recurring%20revenue%20and%20be%20fast%20moving%0A%20%20%20%20%20%20%20%20%20%20towards%20the%20big%20%2410M%20ARR%20milestone.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EAs%20a%20company%2C%20we%27re%20starting%20to%20feel%20that%20some%20of%20our%20recent%20team%20growth%20and%20structure%20adjustments%0A%20%20%20%20%20%20%20%20%20%20in%20the%20last%20few%20months%20are%20starting%20to%20take%20effect.%3C/p%3E"
         }
       }
       :section-name "finances"
@@ -683,8 +506,7 @@
           }
         ]
         :notes {
-          :body "<p>As a company, we're starting to feel that some of our recent team growth
-          and structure adjustments in the last few months are starting to take effect.</p>"
+          :body "%3Cp%3EAs%20a%20company%2C%20we%27re%20starting%20to%20feel%20that%20some%20of%20our%20recent%20team%20growth%0A%20%20%20%20%20%20%20%20%20%20and%20structure%20adjustments%20in%20the%20last%20few%20months%20are%20starting%20to%20take%20effect.%3C/p%3E"
         }
       }
       :section-name "growth"
@@ -699,12 +521,7 @@
     {
       :section {
         :title "Asks"
-        :body "<h3>Share our finance position</h3>
-        <p>We're looking for an in-house finance person, to help us to be more disciplined about
-        our finances and be better data-informed across all areas of the company. We'd love your help to
-        spread the word on the job listing!
-        <a href=\"https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&text=As%20%40buffer%20approaches%2050%20people%2C%20they%27re%20looking%20for%20an%20in-house%20Finance%20Planner.%20Full%20details%20here%3A&tw_p=tweetbutton&url=https%3A%2F%2Fbuffer.com%2Fjourney%2Ffinance-planner\">Tweet</a>
-        or <a href=\"https://buffer.com/add/?id=4ea2549febf4321f&url=https%3A%2F%2Fbuffer.com%2Fjourney%2Ffinance-planner&text=As%20%40buffer%20approaches%2050%20people%2C%20they%27re%20looking%20for%20an%20in-house%20Finance%20Planner.%20Full%20details%20here%3A&count=vertical&placement=button\">Pied Piper</a>.</p>"
+        :body "%3Ch3%3EShare%20our%20finance%20position%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%27re%20looking%20for%20an%20in-house%20finance%20person%2C%20to%20help%20us%20to%20be%20more%20disciplined%20about%0A%20%20%20%20%20%20%20%20our%20finances%20and%20be%20better%20data-informed%20across%20all%20areas%20of%20the%20company.%20We%27d%20love%20your%20help%20to%0A%20%20%20%20%20%20%20%20spread%20the%20word%20on%20the%20job%20listing%21%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/intent/tweet%3Foriginal_referer%3Dhttps%253A%252F%252Fabout.twitter.com%252Fresources%252Fbuttons%26ref_src%3Dtwsrc%255Etfw%26text%3DAs%2520%2540buffer%2520approaches%252050%2520people%252C%2520they%2527re%2520looking%2520for%2520an%2520in-house%2520Finance%2520Planner.%2520Full%2520details%2520here%253A%26tw_p%3Dtweetbutton%26url%3Dhttps%253A%252F%252Fbuffer.com%252Fjourney%252Ffinance-planner%22%3ETweet%3C/a%3E%0A%20%20%20%20%20%20%20%20or%20%3Ca%20href%3D%22https%3A//buffer.com/add/%3Fid%3D4ea2549febf4321f%26url%3Dhttps%253A%252F%252Fbuffer.com%252Fjourney%252Ffinance-planner%26text%3DAs%2520%2540buffer%2520approaches%252050%2520people%252C%2520they%2527re%2520looking%2520for%2520an%2520in-house%2520Finance%2520Planner.%2520Full%2520details%2520here%253A%26count%3Dvertical%26placement%3Dbutton%22%3EPied Piper%3C/a%3E.%3C/p%3E"
       }
       :section-name "help"
       :author {
@@ -718,20 +535,7 @@
     {
       :section {
         :title "Happiness"
-        :body "<h3>Team growth and new focus areas</h3>
-        <p>Three new Happiness Heroes began Pied Piper Bootcamp in August, which has allowed us to fully
-        commit to having several smaller teams working in separate areas. (These areas correspond
-        to different Pied Piper plans and platforms, like paying customers, customers using Pied Piper's
-        free plan, or those reaching out from the mobile app.)</p>
-        <p>We're working on improving our numbers by bringing down the average response times in
-        September. We have also started exploring a customer success focus for our Enterprise customers.</p>
-        <ul>
-          <li>Conversations: 9,063 (+22%)</li>
-          <li>Customer happiness percentage: 94%</li>
-          <li>34% of emails got a reply within 1 hour</li>
-          <li>55% of emails got a reply within 6 hours</li>
-          <li>55% of Tweets got a reply within 15 minutes</li>
-        </ul>"
+        :body "%3Ch3%3ETeam%20growth%20and%20new%20focus%20areas%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThree%20new%20Happiness%20Heroes%20began%20Pied Piper%20Bootcamp%20in%20August%2C%20which%20has%20allowed%20us%20to%20fully%0A%20%20%20%20%20%20%20%20commit%20to%20having%20several%20smaller%20teams%20working%20in%20separate%20areas.%20%28These%20areas%20correspond%0A%20%20%20%20%20%20%20%20to%20different%20Pied Piper%20plans%20and%20platforms%2C%20like%20paying%20customers%2C%20customers%20using%20Pied Piper%27s%0A%20%20%20%20%20%20%20%20free%20plan%2C%20or%20those%20reaching%20out%20from%20the%20mobile%20app.%29%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%27re%20working%20on%20improving%20our%20numbers%20by%20bringing%20down%20the%20average%20response%20times%20in%0A%20%20%20%20%20%20%20%20September.%20We%20have%20also%20started%20exploring%20a%20customer%20success%20focus%20for%20our%20Enterprise%20customers.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EConversations%3A%209%2C063%20%28+22%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3ECustomer%20happiness%20percentage%3A%2094%25%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E34%25%20of%20emails%20got%20a%20reply%20within%201%20hour%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E55%25%20of%20emails%20got%20a%20reply%20within%206%20hours%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E55%25%20of%20Tweets%20got%20a%20reply%20within%2015%20minutes%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "customer-service"
       :author {
@@ -745,17 +549,7 @@
     {
       :section {
         :title "Team"
-        :body "<h3>14 open roles</h3>
-          <p>We are still growing the team fast and have 14 open roles we are hiring for, including a
-          new role: We have started looking for an in-house finance person.</p>
-          <p>We received around 1,500 applications in August. (July and August tend to be slower in
-          terms of applications, we are excited for September.)</p>
-          <p>We will pass 50 people by the next update!</p>
-          <ul>
-            <li>42 total team members</li>
-            <li>5 new team members during August</li>
-            <li>8 more people will start or have started during September</li>
-          </ul>"
+        :body "%3Ch3%3E14%20open%20roles%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20are%20still%20growing%20the%20team%20fast%20and%20have%2014%20open%20roles%20we%20are%20hiring%20for%2C%20including%20a%0A%20%20%20%20%20%20%20%20%20%20new%20role%3A%20We%20have%20started%20looking%20for%20an%20in-house%20finance%20person.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20received%20around%201%2C500%20applications%20in%20August.%20%28July%20and%20August%20tend%20to%20be%20slower%20in%0A%20%20%20%20%20%20%20%20%20%20terms%20of%20applications%2C%20we%20are%20excited%20for%20September.%29%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20will%20pass%2050%20people%20by%20the%20next%20update%21%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E42%20total%20team%20members%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E5%20new%20team%20members%20during%20August%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E8%20more%20people%20will%20start%20or%20have%20started%20during%20September%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "team"
       :author {
@@ -769,25 +563,7 @@
     {
       :section {
         :title "Product"
-        :body "<h3>Pied Piper for Video and structure changes</h3>
-        <p>In the last couple of months, we've really shaped our product and engineering organization
-        to set us up to move much faster. We've successfully split this large team into smaller,
-        4-6 person teams that are able to work autonomously and move fast.</p>
-        <p>We still have some roles where a single person needs to be working across several teams, and
-        a key hiring goal is for us to reach a point where everyone working on products at Pied Piper is
-        focused on a single area. This will help us to move much faster in the future. All of these
-        changes and our increased pace are starting to be noticed. Here's a great note we received
-        from a customer recently:</p>
-        <p><em>\"I'm very surprised! In the last 5 days you add two great features to Pied Piper. First the
-        ability to post videos simultaneously to various accounts and second we now can upload
-        thumbnail images to the links we share thru Pied Piper in Facebook and LinkedIn. I just want to
-        say thanks cause I feel heard. And I hope you keep hearing us.\"</em></p>
-        <ul>
-          <li>We launched <a href=\"https://buffer.com/video\">Pied Piper for Video</a> and it got a
-          <a href=\"http://www.producthunt.com/tech/buffer-for-video\">great reception from the community</a>.</li>
-          <li>We've validated product/market fit for our <a href=\"https://buffer.com/optimal-scheduling?utm_campaign=schedule_tab\">optimal scheduling tool</a>.</li>
-          <li>A new version of <a href=\"https://buffer.com/pablo\">Pablo</a> will launch very soon.</li>
-        </ul>"
+        :body "%3Ch3%3EPied Piper%20for%20Video%20and%20structure%20changes%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EIn%20the%20last%20couple%20of%20months%2C%20we%27ve%20really%20shaped%20our%20product%20and%20engineering%20organization%0A%20%20%20%20%20%20%20%20to%20set%20us%20up%20to%20move%20much%20faster.%20We%27ve%20successfully%20split%20this%20large%20team%20into%20smaller%2C%0A%20%20%20%20%20%20%20%204-6%20person%20teams%20that%20are%20able%20to%20work%20autonomously%20and%20move%20fast.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%20still%20have%20some%20roles%20where%20a%20single%20person%20needs%20to%20be%20working%20across%20several%20teams%2C%20and%0A%20%20%20%20%20%20%20%20a%20key%20hiring%20goal%20is%20for%20us%20to%20reach%20a%20point%20where%20everyone%20working%20on%20products%20at%20Pied Piper%20is%0A%20%20%20%20%20%20%20%20focused%20on%20a%20single%20area.%20This%20will%20help%20us%20to%20move%20much%20faster%20in%20the%20future.%20All%20of%20these%0A%20%20%20%20%20%20%20%20changes%20and%20our%20increased%20pace%20are%20starting%20to%20be%20noticed.%20Here%27s%20a%20great%20note%20we%20received%0A%20%20%20%20%20%20%20%20from%20a%20customer%20recently%3A%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3E%3Cem%3E%22I%27m%20very%20surprised%21%20In%20the%20last%205%20days%20you%20add%20two%20great%20features%20to%20Pied Piper.%20First%20the%0A%20%20%20%20%20%20%20%20ability%20to%20post%20videos%20simultaneously%20to%20various%20accounts%20and%20second%20we%20now%20can%20upload%0A%20%20%20%20%20%20%20%20thumbnail%20images%20to%20the%20links%20we%20share%20thru%20Pied Piper%20in%20Facebook%20and%20LinkedIn.%20I%20just%20want%20to%0A%20%20%20%20%20%20%20%20say%20thanks%20cause%20I%20feel%20heard.%20And%20I%20hope%20you%20keep%20hearing%20us.%22%3C/em%3E%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20launched%20%3Ca%20href%3D%22https%3A//buffer.com/video%22%3EPied Piper%20for%20Video%3C/a%3E%20and%20it%20got%20a%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22http%3A//www.producthunt.com/tech/buffer-for-video%22%3Egreat%20reception%20from%20the%20community%3C/a%3E.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%27ve%20validated%20product/market%20fit%20for%20our%20%3Ca%20href%3D%22https%3A//buffer.com/optimal-scheduling%3Futm_campaign%3Dschedule_tab%22%3Eoptimal%20scheduling%20tool%3C/a%3E.%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EA%20new%20version%20of%20%3Ca%20href%3D%22https%3A//buffer.com/pablo%22%3EPablo%3C/a%3E%20will%20launch%20very%20soon.%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "product"
       :author {
@@ -802,12 +578,7 @@
     {
       :section {
         :title "Update"
-        :body "
-        <p>We reached the 50 team members mark in September! This feels like a big milestone and a special moment to reflect on.</p>
-        <p>For me, the most exciting part of this is that 50 people are able to join our journey of working as a fully distributed
-        team, where you choose to live and work from the place which makes you happiest and most productive.</p>
-        <p>We've had several examples of teammates moving or traveling to find their happy place, or being able to move easily to help
-        and be with their significant other for studies or a job move.</p>"
+        :body "%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%20reached%20the%2050%20team%20members%20mark%20in%20September%21%20This%20feels%20like%20a%20big%20milestone%20and%20a%20special%20moment%20to%20reflect%20on.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EFor%20me%2C%20the%20most%20exciting%20part%20of%20this%20is%20that%2050%20people%20are%20able%20to%20join%20our%20journey%20of%20working%20as%20a%20fully%20distributed%0A%20%20%20%20%20%20%20%20team%2C%20where%20you%20choose%20to%20live%20and%20work%20from%20the%20place%20which%20makes%20you%20happiest%20and%20most%20productive.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%u2019ve%20had%20several%20examples%20of%20teammates%20moving%20or%20traveling%20to%20find%20their%20happy%20place%2C%20or%20being%20able%20to%20move%20easily%20to%20help%0A%20%20%20%20%20%20%20%20and%20be%20with%20their%20significant%20other%20for%20studies%20or%20a%20job%20move.%3C/p%3E"
       }
       :section-name "update"
       :author {
@@ -906,7 +677,6 @@
             :slug "total-registered-users"
             :value 2673418
           }
-
           {
             :period "2015-09"
             :slug "total-registered-users"
@@ -974,9 +744,7 @@
           }
         ]
         :notes {
-          :body "<p>We usually find that September is one of the months of lowest growth. We are seeing this here with 3.2%, which
-          is lower than our recent months, however it's a number we're happy about for generally our lowest growth month of the year.</p>
-          <p>Our current YoY MRR growth stands at around 80%, a number we'd like to grow.</p>"
+          :body "%3Cp%3EWe%20usually%20find%20that%20September%20is%20one%20of%20the%20months%20of%20lowest%20growth.%20We%20are%20seeing%20this%20here%20with%203.2%25%2C%20which%0A%20%20%20%20%20%20%20%20%20%20is%20lower%20than%20our%20recent%20months%2C%20however%20it%u2019s%20a%20number%20we%u2019re%20happy%20about%20for%20generally%20our%20lowest%20growth%20month%20of%20the%20year.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EOur%20current%20YoY%20MRR%20growth%20stands%20at%20around%2080%25%2C%20a%20number%20we%u2019d%20like%20to%20grow.%3C/p%3E"
         }
       }
       :section-name "growth"
@@ -991,18 +759,7 @@
     {
       :section {
         :title "Team and hiring"
-        :body "<h3>17 open roles</h3>
-          <p>We are still growing the team fast and have <a href=\"https://buffer.com/journey\">17 open roles we are hiring for</a>,
-          including new roles like <a href=\"https://buffer.com/journey/social-media-manager\">Social Media Manager</a> and
-          <a href=\"https://buffer.com/journey/customer-hero\">Customer Hero</a>.</p>
-          <img src=\"https://open.buffer.com/wp-content/uploads/2015/10/hiring-open-roles.png\">
-          <p>We received over <a href=\"https://open.buffer.com/september-2015-hiring/\">1,500 applications</a> in September, on-par
-          with the volume of application we have seen thus far.</p>
-          <ul>
-            <li>50 total team members across the world in 37 cities</li>
-            <li>9 new team members started their bootcamp during September</li>
-            <li>At least 6 more people will start or have started during October</li>
-          </ul>"
+        :body "%3Ch3%3E17%20open%20roles%3C/h3%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20are%20still%20growing%20the%20team%20fast%20and%20have%20%3Ca%20href%3D%22https%3A//buffer.com/journey%22%3E17%20open%20roles%20we%20are%20hiring%20for%3C/a%3E%2C%0A%20%20%20%20%20%20%20%20%20%20including%20new%20roles%20like%20%3Ca%20href%3D%22https%3A//buffer.com/journey/social-media-manager%22%3ESocial%20Media%20Manager%3C/a%3E%20and%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//buffer.com/journey/customer-hero%22%3ECustomer%20Hero%3C/a%3E.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.buffer.com/wp-content/uploads/2015/10/hiring-open-roles.png%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cp%3EWe%20received%20over%20%3Ca%20href%3D%22https%3A//open.buffer.com/september-2015-hiring/%22%3E1%2C500%20applications%3C/a%3E%20in%20September%2C%20on-par%0A%20%20%20%20%20%20%20%20%20%20with%20the%20volume%20of%20application%20we%20have%20seen%20thus%20far.%3C/p%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E50%20total%20team%20members%20across%20the%20world%20in%2037%20cities%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3E9%20new%20team%20members%20started%20their%20bootcamp%20during%20September%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cli%3EAt%20least%206%20more%20people%20will%20start%20or%20have%20started%20during%20October%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "team"
       :author {
@@ -1016,29 +773,7 @@
     {
       :section {
         :title "Product"
-        :body "<h3>New features and experiments</h3>
-        <p>Our <a href=\"https://open.buffer.com/product-team-evolution/\">product teams</a> are working together more
-        closely than ever before, and as a result we've been moving quickly with new features and experiments! In September
-        we adjusted Pied Piper for Business trials from 7 days to 30 days to allow us longer to help those in trial find value
-        from Pied Piper. We're also working on a new landing page to clarify the positioning of Pied Piper clearly as a
-        software-as-a-service product for small businesses.</p>
-        <p>Also, lots of new team members! We are so excited to have recently added to our team
-        <a href=\"https://twitter.com/_pioul\">Philippe Masset</a> as a developer,
-        <a href=\"https://twitter.com/stevemdixon\">Steve Dixon</a> as a product designer,
-        <a href=\"https://twitter.com/ivanazuber\">Ivana Zuber</a> as a front-end developer and 
-        <a href=\"https://twitter.com/mwermuth\">Marcus Wermuth</a> as an Android/iOS developer.</p>
-        <ul>
-          <li>Awesome Plan ($10/mo) MRR: $370,580 (+2.7%)</li>
-          <li>Pied Piper for Business ($50+/mo) MRR: $272,959 (+3.8%)</li>
-          <li>We rolled out <a href=\"https://blog.bufferapp.com/pablo-images-for-instagram-pinterest-twitter-facebook\">the
-          new Pablo</a> to a percentage of users</li>
-          <li>Launched the ability to
-          <a href=\"https://blog.bufferapp.com/new-in-buffer-custom-thumbnail-images-retweet-with-comment\">share
-          multiple photos in a single post</a></li>
-          <li>A new \"calendar view\" feature is now in beta - here's a look
-          <img src=\"https://open.buffer.com/wp-content/uploads/2015/10/calendar-view-beta.png\">
-          </li>
-        </ul>"
+        :body "%3Ch3%3ENew%20features%20and%20experiments%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EOur%20%3Ca%20href%3D%22https%3A//open.buffer.com/product-team-evolution/%22%3Eproduct%20teams%3C/a%3E%20are%20working%20together%20more%0A%20%20%20%20%20%20%20%20closely%20than%20ever%20before%2C%20and%20as%20a%20result%20we%u2019ve%20been%20moving%20quickly%20with%20new%20features%20and%20experiments%21%20In%20September%0A%20%20%20%20%20%20%20%20we%20adjusted%20Pied Piper%20for%20Business%20trials%20from%207%20days%20to%2030%20days%20to%20allow%20us%20longer%20to%20help%20those%20in%20trial%20find%20value%0A%20%20%20%20%20%20%20%20from%20Pied Piper.%20We%u2019re%20also%20working%20on%20a%20new%20landing%20page%20to%20clarify%20the%20positioning%20of%20Pied Piper%20clearly%20as%20a%0A%20%20%20%20%20%20%20%20software-as-a-service%20product%20for%20small%20businesses.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EAlso%2C%20lots%20of%20new%20team%20members%21%20We%20are%20so%20excited%20to%20have%20recently%20added%20to%20our%20team%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/_pioul%22%3EPhilippe%20Masset%3C/a%3E%20as%20a%20developer%2C%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/stevemdixon%22%3ESteve%20Dixon%3C/a%3E%20as%20a%20product%20designer%2C%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/ivanazuber%22%3EIvana%20Zuber%3C/a%3E%20as%20a%20front-end%20developer%20and%20%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/mwermuth%22%3EMarcus%20Wermuth%3C/a%3E%20as%20an%20Android/iOS%20developer.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EAwesome%20Plan%20%28%2410/mo%29%20MRR%3A%20%24370%2C580%20%28+2.7%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EPied Piper%20for%20Business%20%28%2450+/mo%29%20MRR%3A%20%24272%2C959%20%28+3.8%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EWe%20rolled%20out%20%3Ca%20href%3D%22https%3A//blog.bufferapp.com/pablo-images-for-instagram-pinterest-twitter-facebook%22%3Ethe%0A%20%20%20%20%20%20%20%20%20%20new%20Pablo%3C/a%3E%20to%20a%20percentage%20of%20users%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3ELaunched%20the%20ability%20to%0A%20%20%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//blog.bufferapp.com/new-in-buffer-custom-thumbnail-images-retweet-with-comment%22%3Eshare%0A%20%20%20%20%20%20%20%20%20%20multiple%20photos%20in%20a%20single%20post%3C/a%3E%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3EA%20new%20%22calendar%20view%22%20feature%20is%20now%20in%20beta%u2014here%u2019s%20a%20look%0A%20%20%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.buffer.com/wp-content/uploads/2015/10/calendar-view-beta.png%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "product"
       :author {
@@ -1052,17 +787,7 @@
     {
       :section {
         :title "Happiness"
-        :body "<h3>Focusing on email response times</h3>
-        <p>In September, the Happiness Team re-focused on email response times as our main objective. We saw
-        big improvement on our speed while customer happiness levels stayed the same. Next month we're looking
-        forward to more specialization on the teams within Customer Happiness. We are also celebrating one more
-        full-time team member, <a href=\"https://twitter.com/Parmly\">Ross Parmly</a>. Welcome, Ross! :)</p>
-        <ul>
-          <li>14,000 email replies sent (+25%)</li>
-          <li>Customer Happiness Percentage: 94% (Same as last month)</li>
-          <li>57% of emails got a reply within 1 hour (+67%), 71% within 6 hours (+29%)</li>
-          <li>53% of Tweets got a reply within 15 minutes (-3%)</li>
-        </ul>"
+        :body "%3Ch3%3EFocusing%20on%20email%20response%20times%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EIn%20September%2C%20the%20Happiness%20Team%20re-focused%20on%20email%20response%20times%20as%20our%20main%20objective.%20We%20saw%0A%20%20%20%20%20%20%20%20big%20improvement%20on%20our%20speed%20while%20customer%20happiness%20levels%20stayed%20the%20same.%20Next%20month%20we%27re%20looking%0A%20%20%20%20%20%20%20%20forward%20to%20more%20specialization%20on%20the%20teams%20within%20Customer%20Happiness.%20We%20are%20also%20celebrating%20one%20more%0A%20%20%20%20%20%20%20%20full-time%20team%20member%2C%20%3Ca%20href%3D%22https%3A//twitter.com/Parmly%22%3ERoss%20Parmly%3C/a%3E.%20Welcome%2C%20Ross%21%20%3A%29%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E14%2C000%20email%20replies%20sent%20%28+25%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3ECustomer%20Happiness%20Percentage%3A%2094%25%20%28Same%20as%20last%20month%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E57%25%20of%20emails%20got%20a%20reply%20within%201%20hour%20%28+67%25%29%2C%2071%25%20within%206%20hours%20%28+29%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E53%25%20of%20Tweets%20got%20a%20reply%20within%2015%20minutes%20%28-3%25%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%3C/ul%3E"
       }
       :section-name "customer-service"
       :author {
@@ -1076,20 +801,7 @@
     {
       :section {
         :title "Marketing"
-        :body "<h3>New metrics focus</h3>
-        <p>Thanks to great help from the data team, we built a series of
-        <a href=\"https://open.buffer.com/remote-work-tools/\">Looker dashboards</a> to fully track the metrics
-        and conversions from our marketing efforts. Feels like we're in a great place to move ahead with some new
-        experiments in October and see if we can move the needle.</p>
-        <p>We are also celebrating one new full-time team member,
-        <a href=\"https://twitter.com/sosandrine\">Sandrine Sahakians</a>, as our new multimedia producer.
-        Welcome, Sandrine! :)</p>
-        <ul>
-          <li>3,496 signups via blogs (comparison data coming next month!)</li>
-          <li>227 upgrades via blogs</li>
-          <li>1,019,848 visits to the blogs</li>
-        <ul>
-        <img src=\"https://open.buffer.com/wp-content/uploads/2015/10/Looker-marketing.png\">"
+        :body "%3Ch3%3ENew%20metrics%20focus%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EThanks%20to%20great%20help%20from%20the%20data%20team%2C%20we%20built%20a%20series%20of%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//open.buffer.com/remote-work-tools/%22%3ELooker%20dashboards%3C/a%3E%20to%20fully%20track%20the%20metrics%0A%20%20%20%20%20%20%20%20and%20conversions%20from%20our%20marketing%20efforts.%20Feels%20like%20we%u2019re%20in%20a%20great%20place%20to%20move%20ahead%20with%20some%20new%0A%20%20%20%20%20%20%20%20experiments%20in%20October%20and%20see%20if%20we%20can%20move%20the%20needle.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EWe%20are%20also%20celebrating%20one%20new%20full-time%20team%20member%2C%0A%20%20%20%20%20%20%20%20%3Ca%20href%3D%22https%3A//twitter.com/sosandrine%22%3ESandrine%20Sahakians%3C/a%3E%2C%20as%20our%20new%20multimedia%20producer.%0A%20%20%20%20%20%20%20%20Welcome%2C%20Sandrine%21%20%3A%29%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E3%2C496%20signups%20via%20blogs%20%28comparison%20data%20coming%20next%20month%21%29%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E227%20upgrades%20via%20blogs%3C/li%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cli%3E1%2C019%2C848%20visits%20to%20the%20blogs%3C/li%3E%0A%20%20%20%20%20%20%20%20%3Cul%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22https%3A//open.buffer.com/wp-content/uploads/2015/10/Looker-marketing.png%22%3E"
       }
       :section-name "marketing"
       :author {
@@ -1103,11 +815,7 @@
     {
       :section {
         :title "Diversity"
-        :body "<h3>We're building a more inclusive Pied Piper!</h3>
-        <p>Here's a transparent look at the overall demographic diversity of our team.</p>
-        <img src=\"http://take.ms/cTKFm\">
-        <img src=\"http://take.ms/3mBTC\">
-        <img src=\"http://take.ms/3zi2y\">"
+        :body "%3Ch3%3EWe%27re%20building%20a%20more%20inclusive%20Pied Piper%21%3C/h3%3E%0A%20%20%20%20%20%20%20%20%3Cp%3EHere%27s%20a%20transparent%20look%20at%20the%20overall%20demographic%20diversity%20of%20our%20team.%3C/p%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22http%3A//take.ms/cTKFm%22%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22http%3A//take.ms/3mBTC%22%3E%0A%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22http%3A//take.ms/3zi2y%22%3E"
       }
       :section-name "diversity"
       :author {
