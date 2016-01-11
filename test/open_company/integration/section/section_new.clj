@@ -109,4 +109,9 @@
     (fact "with a user's org in a JWToken that matches the company's org"
       (let [response (mock/api-request :get url)]
         (:status response) => 200
+        (json/decode (:body response)) => config/sections))
+
+    (fact "without Accept-Charset"
+      (let [response (mock/api-request :get url {:skip-charset true})]
+        (:status response) => 200
         (json/decode (:body response)) => config/sections))))
